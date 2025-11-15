@@ -3,6 +3,25 @@ import argparse
 from modules.recon import Recon
 from modules.scanner import PortScanner
 from modules.report import Report
+from colorama import Fore, Style
+
+banner = f"""
+{Fore.CYAN}
+ ██████╗ ██████╗  █████╗ ███████╗ █████╗ 
+██╔═══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
+██║   ██║██████╔╝███████║█████╗  ███████║
+██║   ██║██╔══██╗██╔══██║██╔══╝  ██╔══██║
+╚██████╔╝██║  ██║██║  ██║███████╗██║  ██║
+ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚╝╚══════╝╚═╝  ╚═╝
+{Style.RESET_ALL}
+
+{Fore.MAGENTA}      Offensive Recon & Attack Surface Analyzer{Style.RESET_ALL}
+{Fore.YELLOW}      Developed by: Abdelilah Elkhaoudari{Style.RESET_ALL}
+{Fore.GREEN}      Phone: +212613301426{Style.RESET_ALL}
+{Fore.BLUE}      Email: elkhaoudariabdelilah@gmail.com{Style.RESET_ALL}
+"""
+
+print(banner)
 
 def main():
     parser = argparse.ArgumentParser(
