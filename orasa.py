@@ -7,18 +7,27 @@ from colorama import Fore, Style
 
 banner = f"""
 {Fore.CYAN}
-==============================
-      O R A S A
-==============================
+                                                 
+                                                 
+  /$$$$$$   /$$$$$$  /$$$$$$   /$$$$$$$  /$$$$$$ 
+ /$$__  $$ /$$__  $$|____  $$ /$$_____/ |____  $$
+| $$  \ $$| $$  \__/ /$$$$$$$|  $$$$$$   /$$$$$$$
+| $$  | $$| $$      /$$__  $$ \____  $$ /$$__  $$
+|  $$$$$$/| $$     |  $$$$$$$ /$$$$$$$/|  $$$$$$$
+ \______/ |__/      \_______/|_______/  \_______/
+                                                 
+                                                 
+                                                 
 {Style.RESET_ALL}
 
-{Fore.MAGENTA}Offensive Recon & Attack Surface Analyzer{Style.RESET_ALL}
-{Fore.YELLOW}Developed by: Abdelilah Elkhaoudari{Style.RESET_ALL}
-{Fore.GREEN}Phone: +212613301426{Style.RESET_ALL}
-{Fore.BLUE}Email: elkhaoudariabdelilah@gmail.com{Style.RESET_ALL}
+{Fore.MAGENTA}      Offensive Recon & Attack Surface Analyzer{Style.RESET_ALL}
+{Fore.YELLOW}      Developed by: Abdelilah Elkhaoudari{Style.RESET_ALL}
+{Fore.GREEN}      Phone: +212613301426{Style.RESET_ALL}
+{Fore.BLUE}      Email: elkhaoudariabdelilah@gmail.com{Style.RESET_ALL}
 """
 
 print(banner)
+
 
 
 def main():
